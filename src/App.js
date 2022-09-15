@@ -1,8 +1,14 @@
-import "./styles/App.scss";
 import Home from "./components/Home";
-
+import Header from "./components/Header";
+import "./styles/App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
-	return <Home />;
+	return (
+		<div>
+			<Header />
+			<Home />
+		</div>
+	);
 }
 
 export default App;
