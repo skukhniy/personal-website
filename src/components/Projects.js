@@ -6,7 +6,7 @@ export default function Projects() {
 	return (
 		<div className="text-center projects-custom p-3">
 			<h3 className="mb-5">Projects</h3>
-			<div>
+			<div className="p-5">
 				<ProjectCard
 					title={"Vinyl Store"}
 					desc={
