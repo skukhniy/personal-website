@@ -1,16 +1,16 @@
 import React from "react";
 
-export default function SkillsCard() {
+export default function SkillsCard({ header, skills }) {
+	let skillsList = [];
+
+	skills.forEach((skill) => {
+		skillsList.push(<li>{skill}</li>);
+	});
+
 	return (
 		<div>
-			<h3>Front End</h3>
-			<ul>
-				<li>HTML5</li>
-				<li>CSS</li>
-				<li>SASS</li>
-				<li>Javascript</li>
-				<li>React</li>
-			</ul>
+			<h3>{header}</h3>
+			<ul>{skillsList}</ul>
 		</div>
 	);
 }
