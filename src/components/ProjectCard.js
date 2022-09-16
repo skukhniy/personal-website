@@ -2,8 +2,8 @@ import React from "react";
 
 export default function ProjectCard({ title, desc, img, demo, code }) {
 	return (
-		<div className="container p-2 d-flex">
-			<div className="d-flex flex-column ms-5 justify-content-between">
+		<div className="container p-4 d-flex border border-4 border-dark">
+			<div className="d-flex flex-column ms-5 justify-content-between w-50">
 				<h4 className="">{title}</h4>
 				<p className="pe-5">{desc}</p>
 				<div className="mb-3">
