@@ -9,7 +9,7 @@ export default function SkillsCard({ header, skills }) {
 
 	return (
 		<div>
-			<h3>{header}</h3>
+			<h4>{header}</h4>
 			<ul>{skillsList}</ul>
 		</div>
 	);
