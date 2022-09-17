@@ -7,7 +7,7 @@ export default function Contact() {
 			<span class="anchor" id="aboutMe"></span>
 			<h3>Contact</h3>
 			<h5>
-				Have a question or want to connect? Here are the places you can find me
+				Have a question or want to connect? Here are the places you can find me.
 			</h5>
 			<div className="mb-3 mt-3">
 				<span>Email: </span>

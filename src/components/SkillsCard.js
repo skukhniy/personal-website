@@ -8,8 +8,8 @@ export default function SkillsCard({ header, imgs, skills }) {
 
 	for (let index = 0; index < imgs.length; index++) {
 		skillsList.push(
-			<div className=" d-flex flex-column p-3 justify-content-between">
-				{imgs[index]}
+			<div className=" d-flex flex-column p-3 justify-content-between align">
+				<div>{imgs[index]}</div>
 				{skills[index]}
 			</div>
 		);

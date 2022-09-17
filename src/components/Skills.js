@@ -30,15 +30,16 @@ import {
 	SiMicrosoftexcel,
 } from "react-icons/si";
 import { BsCamera } from "react-icons/bs";
+import { FaCameraRetro } from "react-icons/fa";
 
 export default function Skills() {
 	return (
-		<div className="skills-custom text-center p-3">
+		<div className="skills-custom text-center p-3 pb-5">
 			<span class="anchor" id="skills"></span>
 			<h3>Skills</h3>
 			<div
 				id="skillsContainer"
-				className="d-sm-flex p-3 justify-content-around"
+				className="d-sm-flex p-3 justify-content-around ms-2"
 			>
 				<SkillsCard
 					header={"Front End"}
@@ -76,7 +77,7 @@ export default function Skills() {
 					imgs={[
 						<SiAdobephotoshop size="4em" />,
 						<SiAdobelightroom size="4em" />,
-						<BsCamera size="4em" />,
+						<FaCameraRetro size="4em" />,
 						<SiMicrosoftexcel size="4em" />,
 					]}
 					skills={["Photoshop", "Lightroom", "Photography", "Excel (VBA)"]}
