@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ProjectCard({ title, desc, img, demo, code }) {
 	return (
-		<div className="container p-4 d-flex border border-4 border-dark">
-			<div className="d-flex flex-column ms-5 justify-content-between w-50">
+		<div className="container p-4 d-lg-flex border border-4 mb-5 border-dark">
+			<div className="d-flex flex-column ms-5 me-5 justify-content-between w-50">
 				<h4 className="">{title}</h4>
-				<p className="pe-5">{desc}</p>
+				<p>{desc}</p>
 				<div className="mb-3">
 					<button>
 						<a
@@ -32,7 +32,7 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 			<img
 				src={img}
 				alt="A mock store for vinyl records"
-				className="img-fluid project-image"
+				className="project-image"
 			></img>
 		</div>
 	);
