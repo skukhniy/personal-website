@@ -6,17 +6,16 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavbarC() {
 	return (
-		<Navbar className="navbar-custom" variant="light" expand="xl">
+		<Navbar className="navbar-custom" variant="light" expand="xl" fixed="top">
 			<Container>
 				<Navbar.Brand>Stanislav Kukhniy </Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ms-auto">
-						<Nav.Link href="#link">About Me</Nav.Link>
-						<Nav.Link href="#home">Skills</Nav.Link>
-						<Nav.Link href="#link">Projects</Nav.Link>
-						<Nav.Link href="#link">Contact</Nav.Link>
-						<Nav.Link href="#link">Blog</Nav.Link>
+						<Nav.Link href="#aboutMe">About Me</Nav.Link>
+						<Nav.Link href="#skills">Skills</Nav.Link>
+						<Nav.Link href="#projects">Projects</Nav.Link>
+						<Nav.Link href="#contact">Contact</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

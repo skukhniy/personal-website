@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Introduction() {
 	return (
-		<div className="intro-custom p-5 text-center">
+		<div className="intro-custom p-5 mt-5 text-center">
 			<Typewriter
 				options={{
 					loop: true,

@@ -37,3 +37,14 @@ body {
 .project-image-container {
 	width: 100%;
 }
+
+.anchor {
+	display: block;
+	visibility: hidden;
+	height: 70px; /*same height as header*/
+	margin-top: -70px; /*same height as header*/
+	&.aboutMe {
+		height: 100px; /*same height as header*/
+		margin-top: -100px; /*same height as header*/
+	}
+}

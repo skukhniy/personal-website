@@ -4,6 +4,7 @@ import me from "../assets/Me.png";
 export default function About() {
 	return (
 		<div className="about-custom p-5">
+			<span class="anchor" id="aboutMe"></span>
 			<div className="text-center">
 				<h3>About Me</h3>
 			</div>

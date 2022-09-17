@@ -8,6 +8,7 @@ import pokedexPic from "../assets/pokedex-screenshot.png";
 export default function Projects() {
 	return (
 		<div className="text-center projects-custom p-3">
+			<span class="anchor" id="projects"></span>
 			<h3 className="mb-1">Projects</h3>
 
 			<div className="p-5">

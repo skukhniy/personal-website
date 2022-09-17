@@ -4,6 +4,7 @@ import SkillsCard from "./SkillsCard";
 export default function Skills() {
 	return (
 		<div className="skills-custom text-center p-3">
+			<span class="anchor" id="skills"></span>
 			<h3>Skills</h3>
 			<div id="skillsContainer" className="d-flex p-3 justify-content-around">
 				<SkillsCard
