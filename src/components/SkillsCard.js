@@ -19,8 +19,8 @@ export default function SkillsCard({ header, imgs, skills }) {
 		<div>
 			<h4>{header}</h4>
 			<div
-				className="d-flex flex-wrap p-4 justify-content-around border"
-				style={{ width: "250px" }}
+				className="d-sm-flex flex-wrap p-4 justify-content-around border"
+				style={{ width: "18em" }}
 			>
 				{skillsList}
 			</div>
