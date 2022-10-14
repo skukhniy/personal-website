@@ -4,6 +4,7 @@ import shopPic from "../assets/shop-screenshot.png";
 import waldoPic from "../assets/waldo-screenshot.png";
 import starwarsPic from "../assets/starwars-screenshot.png";
 import pokedexPic from "../assets/pokedex-screenshot.png";
+import blogPic from "../assets/blog-screenshot.png";
 
 export default function Projects() {
 	return (
@@ -12,6 +13,15 @@ export default function Projects() {
 			<h3 className="mb-1">Projects</h3>
 
 			<div className="p-5">
+				<ProjectCard
+					title={"Blog"}
+					desc={
+						"A full-stack CRUD app using a MERN stack. It implements user authentication for admin privileges, a rich text editor to add design variety to posts, and image uploads. Deployed on AWS using EC2 on a virtual Ubuntu machine."
+					}
+					img={blogPic}
+					demo={"http://18.234.147.248/"}
+					code={"https://github.com/skukhniy/blog-api"}
+				/>
 				<ProjectCard
 					title={"Pokedex"}
 					desc={
@@ -22,18 +32,9 @@ export default function Projects() {
 					code={"https://github.com/skukhniy/pokedex"}
 				/>
 				<ProjectCard
-					title={"Memory Card Game"}
-					desc={
-						"This is a Star Wars inspired memory card game to help practice React functional skills."
-					}
-					img={starwarsPic}
-					demo={"https://skukhniy.github.io/Memory-Card-Game/"}
-					code={"https://github.com/skukhniy/Memory-Card-Game"}
-				/>
-				<ProjectCard
 					title={"Vinyl Store"}
 					desc={
-						"To practice React fundamentals including hooks and routing, I created this mock webpage for an online record store."
+						"Built an e-commerce website using React for a fake vinyl store. Added Jest testing to ensure that components were working properly after every update."
 					}
 					img={shopPic}
 					demo={"https://skukhniy.github.io/shopping-page/#/"}
