@@ -10,7 +10,9 @@ export default function Projects() {
 	return (
 		<div className="text-center projects-custom pt-3 pe-3 ps-3">
 			<span class="anchor" id="projects"></span>
-			<h3 className="mb-1">Projects</h3>
+			<h3 data-aos="fade-in" data-aos-once="true" className="mb-1">
+				Projects
+			</h3>
 
 			<div className="pt-5 ps-5 pe-5">
 				<ProjectCard

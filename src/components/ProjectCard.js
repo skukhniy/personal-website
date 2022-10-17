@@ -6,6 +6,7 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 	return (
 		<div
 			data-aos="fade-left"
+			data-aos-once="true"
 			className="container p-4 d-lg-flex border border-4 mb-5 border-success"
 		>
 			<div className="d-flex flex-column ms-5 me-5 justify-content-between w-50">
