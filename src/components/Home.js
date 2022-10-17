@@ -8,7 +8,7 @@ import Contact from "./Contact";
 export default function Home() {
 	return (
 		<div>
-			<Introduction />
+			{/* <Introduction /> */}
 			<About />
 			<Skills />
 			<Projects />

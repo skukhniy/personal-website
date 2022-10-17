@@ -44,24 +44,24 @@ export default function Skills() {
 				<SkillsCard
 					header={"Front End"}
 					imgs={[
-						<SiHtml5 size="4em" />,
-						<SiCss3 size="4em" />,
-						<SiSass size="4em" />,
-						<SiBootstrap size="4em" />,
-						<SiJavascript size="4em" />,
-						<SiReact size="4em" />,
+						<SiHtml5 size="4em" color="green" />,
+						<SiCss3 size="4em" color="green" />,
+						<SiSass size="4em" color="green" />,
+						<SiBootstrap size="4em" color="green" />,
+						<SiJavascript size="4em" color="green" />,
+						<SiReact size="4em" color="green" />,
 					]}
 					skills={["HTML5", "CSS3", "SASS", "Bootstrap", "Javascript", "React"]}
 				/>
 				<SkillsCard
 					header={"Back End"}
 					imgs={[
-						<SiPython size="4em" />,
-						<SiFirebase size="4em" />,
-						<SiMongodb size="4em" />,
-						<SiNodedotjs size="4em" />,
-						<SiExpress size="4em" />,
-						<SiPassport size="4em" />,
+						<SiPython size="4em" color="green" />,
+						<SiFirebase size="4em" color="green" />,
+						<SiMongodb size="4em" color="green" />,
+						<SiNodedotjs size="4em" color="green" />,
+						<SiExpress size="4em" color="green" />,
+						<SiPassport size="4em" color="green" />,
 					]}
 					skills={[
 						"Python",
@@ -75,10 +75,10 @@ export default function Skills() {
 				<SkillsCard
 					header={"Misc."}
 					imgs={[
-						<SiAdobephotoshop size="4em" />,
-						<SiAdobelightroom size="4em" />,
-						<FaCameraRetro size="4em" />,
-						<SiMicrosoftexcel size="4em" />,
+						<SiAdobephotoshop size="4em" color="green" />,
+						<SiAdobelightroom size="4em" color="green" />,
+						<FaCameraRetro size="4em" color="green" />,
+						<SiMicrosoftexcel size="4em" color="green" />,
 					]}
 					skills={["Photoshop", "Lightroom", "Photography", "Excel (VBA)"]}
 				/>
