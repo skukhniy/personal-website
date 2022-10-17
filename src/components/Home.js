@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 import Introduction from "./Introduction";
 import About from "./About";
 import Skills from "./Skills";
@@ -6,6 +7,9 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 export default function Home() {
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 	return (
 		<div>
 			{/* <Introduction /> */}
