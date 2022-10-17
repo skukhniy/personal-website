@@ -25,8 +25,8 @@ export default function About() {
 					</p>
 					<p>
 						Outside of coding, I also enjoy traveling, photography, gaming,
-						movies, and getting up at 7am on a weekend to watch Tottenham
-						Hotspur or Formula 1.
+						movies, and watching Tottenham Hotspur or Formula 1 on a Sunday
+						Morning.
 					</p>
 				</div>
 			</div>
