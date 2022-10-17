@@ -10,8 +10,22 @@ export default function Home() {
 		<div>
 			{/* <Introduction /> */}
 			<About />
+			<svg
+				class="dividerBottom"
+				xmlns="http://www.w3.org/2000/svg"
+				preserveAspectRatio="none"
+				viewBox="0 0 1920 120"
+			>
+				<path
+					fill-rule="evenodd"
+					fill="green"
+					d="M0,55.9621684 C300.495844,106.578393 620.495844,106.578393 960,55.9621684 C1299.50416,5.34594386 1619.50416,5.34594386 1920,55.9621684 L1920,120 L0,120 L0,55.9621684 Z"
+				></path>
+			</svg>
 			<Skills />
+			<hr></hr>
 			<Projects />
+
 			<Contact />
 		</div>
 	);

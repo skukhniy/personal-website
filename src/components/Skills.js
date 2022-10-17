@@ -34,7 +34,7 @@ import { FaCameraRetro } from "react-icons/fa";
 
 export default function Skills() {
 	return (
-		<div className="skills-custom text-center p-3 pb-5">
+		<div className="skills-custom text-center p-3 pb-5 mt-4">
 			<span class="anchor" id="skills"></span>
 			<h3>Skills</h3>
 			<div

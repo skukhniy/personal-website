@@ -3,7 +3,7 @@ import me from "../assets/Me.png";
 
 export default function About() {
 	return (
-		<div className="about-custom p-5 mt-5">
+		<div className="about-custom pt-5 pe-5 ps-5 mt-5">
 			<span class="anchor" id="aboutMe"></span>
 			<div className="text-center">
 				<h3>About Me</h3>
