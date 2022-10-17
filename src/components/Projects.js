@@ -14,7 +14,7 @@ export default function Projects() {
 
 			<div className="pt-5 ps-5 pe-5">
 				<ProjectCard
-					title={"Blog"}
+					title={"RESTful API Blog"}
 					desc={
 						"A full-stack CRUD app using a MERN stack. It implements user authentication for admin privileges, a rich text editor to add design variety to posts, and image uploads. Deployed on AWS using EC2 on a virtual Ubuntu machine."
 					}
