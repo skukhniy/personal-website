@@ -34,9 +34,9 @@ import { FaCameraRetro } from "react-icons/fa";
 
 export default function Skills() {
 	return (
-		<div data-aos="fade-up" className="skills-custom text-center p-3 pb-5 mt-3">
+		<div className="skills-custom text-center p-3 pb-5 mt-3">
 			<span class="anchor" id="skills"></span>
-			<h3>Skills</h3>
+			<h3 data-aos="fade-up">Skills</h3>
 			<div
 				id="skillsContainer"
 				className="d-sm-flex p-3 justify-content-around ms-2"
@@ -44,24 +44,24 @@ export default function Skills() {
 				<SkillsCard
 					header={"Front End"}
 					imgs={[
-						<SiHtml5 size="4em" color="green" />,
-						<SiCss3 size="4em" color="green" />,
-						<SiSass size="4em" color="green" />,
-						<SiBootstrap size="4em" color="green" />,
-						<SiJavascript size="4em" color="green" />,
-						<SiReact size="4em" color="green" />,
+						<SiHtml5 size="4em" color="#72ff72" />,
+						<SiCss3 size="4em" color="#72ff72" />,
+						<SiSass size="4em" color="#72ff72" />,
+						<SiBootstrap size="4em" color="#72ff72" />,
+						<SiJavascript size="4em" color="#72ff72" />,
+						<SiReact size="4em" color="#72ff72" />,
 					]}
 					skills={["HTML5", "CSS3", "SASS", "Bootstrap", "Javascript", "React"]}
 				/>
 				<SkillsCard
 					header={"Back End"}
 					imgs={[
-						<SiPython size="4em" color="green" />,
-						<SiFirebase size="4em" color="green" />,
-						<SiMongodb size="4em" color="green" />,
-						<SiNodedotjs size="4em" color="green" />,
-						<SiExpress size="4em" color="green" />,
-						<SiPassport size="4em" color="green" />,
+						<SiPython size="4em" color="#72ff72" />,
+						<SiFirebase size="4em" color="#72ff72" />,
+						<SiMongodb size="4em" color="#72ff72" />,
+						<SiNodedotjs size="4em" color="#72ff72" />,
+						<SiExpress size="4em" color="#72ff72" />,
+						<SiPassport size="4em" color="#72ff72" />,
 					]}
 					skills={[
 						"Python",
@@ -75,10 +75,10 @@ export default function Skills() {
 				<SkillsCard
 					header={"Misc."}
 					imgs={[
-						<SiAdobephotoshop size="4em" color="green" />,
-						<SiAdobelightroom size="4em" color="green" />,
-						<FaCameraRetro size="4em" color="green" />,
-						<SiMicrosoftexcel size="4em" color="green" />,
+						<SiAdobephotoshop size="4em" color="#72ff72" />,
+						<SiAdobelightroom size="4em" color="#72ff72" />,
+						<FaCameraRetro size="4em" color="#72ff72" />,
+						<SiMicrosoftexcel size="4em" color="#72ff72" />,
 					]}
 					skills={["Photoshop", "Lightroom", "Photography", "Excel (VBA)"]}
 				/>

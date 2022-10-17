@@ -14,7 +14,7 @@ export default function Projects() {
 				Projects
 			</h3>
 
-			<div className="pt-5 ps-5 pe-5">
+			<div className="">
 				<ProjectCard
 					title={"RESTful API Blog"}
 					desc={

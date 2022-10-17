@@ -7,9 +7,9 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 		<div
 			data-aos="fade-left"
 			data-aos-once="true"
-			className="container p-4 d-lg-flex border border-4 mb-5 border-success"
+			className="container p-4 d-lg-flex mb-5 project-border"
 		>
-			<div className="d-flex flex-column ms-5 me-5 justify-content-between w-50">
+			<div className="d-flex flex-column ms-5 me-5 justify-content-between">
 				<h4 className="headercolor">{title}</h4>
 				<p>{desc}</p>
 				<div className="mb-3">
