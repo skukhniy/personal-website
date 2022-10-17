@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavbarC() {
 	return (
-		<Navbar className="navbar-custom" variant="light" expand="xl" fixed="top">
+		<Navbar className="navbar-custom" variant="dark" expand="xl" fixed="top">
 			<Container>
 				<Navbar.Brand>Stanislav Kukhniy </Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />

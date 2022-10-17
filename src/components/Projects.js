@@ -8,11 +8,11 @@ import blogPic from "../assets/blog-screenshot.png";
 
 export default function Projects() {
 	return (
-		<div className="text-center projects-custom p-3">
+		<div className="text-center projects-custom pt-3 pe-3 ps-3">
 			<span class="anchor" id="projects"></span>
 			<h3 className="mb-1">Projects</h3>
 
-			<div className="p-5">
+			<div className="pt-5 ps-5 pe-5">
 				<ProjectCard
 					title={"Blog"}
 					desc={

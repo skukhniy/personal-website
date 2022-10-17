@@ -6,6 +6,12 @@ body {
 
 .navbar-custom {
 	background-color: green;
+	span {
+		color: rgb(253, 250, 250);
+	}
+	a {
+		color: rgb(253, 250, 250);
+	}
 }
 
 .intro-custom {
@@ -28,7 +34,7 @@ body {
 		color: rgb(34, 32, 32);
 	}
 	h5 {
-		color: rgb(28, 118, 28);
+		color: rgb(34, 32, 32);
 	}
 }
 .projects-custom {
@@ -43,6 +49,10 @@ body {
 }
 
 .divider-top {
+	height: 60px;
+	width: 100%;
+}
+.divider-bottom {
 	height: 60px;
 	width: 100%;
 }
