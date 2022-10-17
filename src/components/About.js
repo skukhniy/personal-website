@@ -13,7 +13,9 @@ export default function About() {
 						src={me}
 						alt="Its me!"
 					></img>
-					<h3>Hey! I'm Stanislav Kukhniy</h3>
+					<h3>
+						Hey! I'm <span className="headercolor">Stanislav Kukhniy</span>
+					</h3>
 					<p className="pt-3">
 						I'm a self taught web developer based out of Connecticut. My self
 						taught journey began during the pandemic, where I used Python to
