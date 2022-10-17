@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 export default function Home() {
 	useEffect(() => {
-		Aos.init({ duration: 2000 });
+		Aos.init({ duration: 3000 });
 	}, []);
 	return (
 		<div>
