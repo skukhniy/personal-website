@@ -5,13 +5,13 @@ import me from "../assets/Me.png";
 
 export default function About() {
 	return (
-		<div className="about-custom pt-4 pe-5 ps-5 mt-5 mb-4">
+		<div className="about-custom pt-4 pe-5 ps-5 mt-5 pb-4">
 			<span class="anchor" id="aboutMe"></span>
 			<div className="text-center"></div>
 			<div className="d-sm-flex pb-4 pe-4 ps-4 pt-4">
 				<div className="text-center">
 					<img
-						className="rounded-circle img-fluid me-5 mb-3"
+						className="rounded-circle img-fluid mb-3"
 						src={me}
 						alt="Its me!"
 					></img>

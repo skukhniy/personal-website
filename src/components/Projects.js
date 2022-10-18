@@ -10,7 +10,7 @@ export default function Projects() {
 	return (
 		<div className="text-center projects-custom pt-3 pe-3 ps-3">
 			<span class="anchor" id="projects"></span>
-			<h3 data-aos="fade-in" data-aos-once="true" className="mb-1">
+			<h3 data-aos="fade-in" data-aos-once="true" className="mb-4">
 				Projects
 			</h3>
 

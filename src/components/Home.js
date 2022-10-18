@@ -14,10 +14,9 @@ export default function Home() {
 		<div>
 			{/* <Introduction /> */}
 			<About />
-			<hr></hr>
 			<Skills />
-			<hr></hr>
 			<Projects />
+
 			<div>
 				<svg
 					class="divider-bottom"
