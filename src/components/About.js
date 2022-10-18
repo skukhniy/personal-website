@@ -5,7 +5,7 @@ import me from "../assets/Me.png";
 
 export default function About() {
 	return (
-		<div className="about-custom pt-4 pe-5 ps-5 mt-5 pb-4">
+		<div className="about-custom pe-5 ps-5 pb-4 mt-5 p-4">
 			<span class="anchor" id="aboutMe"></span>
 			<div className="text-center"></div>
 			<div className="d-sm-flex pb-4 pe-4 ps-4 pt-4">
@@ -16,7 +16,7 @@ export default function About() {
 						alt="Its me!"
 					></img>
 					<h3>
-						Hey! I'm <span className="headercolor">Stanislav Kukhniy</span>
+						Hey! I'm <span className="neon">Stanislav Kukhniy</span>
 					</h3>
 					<p className="pt-3">
 						I'm a self taught web developer based out of Connecticut. My self

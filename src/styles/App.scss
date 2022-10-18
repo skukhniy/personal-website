@@ -1,4 +1,5 @@
 $bgColor: #181a1b;
+// $bgColor: black;
 // $bgColor: white;
 $fontColor: #d3cfca;
 // $emphColor: rgb(131, 226, 131);
@@ -23,7 +24,7 @@ body {
 
 .intro-custom {
 	background-color: $bgColor;
-	color: rgb(30, 234, 30);
+	color: rgb(131, 226, 131);
 	font-size: 40px;
 }
 
@@ -88,6 +89,10 @@ body {
 }
 .headercolor {
 	color: rgb(131, 226, 131);
+}
+
+.neon {
+	color: #72ff72;
 }
 
 .anchor {
