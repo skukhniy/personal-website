@@ -39,7 +39,7 @@ export default function Skills() {
 			<h3 data-aos="fade-up">Skills</h3>
 			<div
 				id="skillsContainer"
-				className="d-sm-flex p-3 justify-content-around ms-2"
+				className="d-sm-flex p-3 justify-content-around"
 			>
 				<SkillsCard
 					header={"Front End"}

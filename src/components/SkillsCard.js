@@ -16,9 +16,12 @@ export default function SkillsCard({ header, imgs, skills }) {
 	}
 
 	return (
-		<div data-aos="fade-up" className="text-center">
+		<div
+			data-aos="fade-up"
+			className="text-center d-flex flex-wrap flex-column align-items-center mb-4"
+		>
 			<h5>{header}</h5>
-			<div className="d-sm-flex flex-wrap p-4 justify-content-around border skillCard">
+			<div className="d-flex flex-wrap p-4 justify-content-around border skillCard">
 				{skillsList}
 			</div>
 			{/* <ul>{skillsList}</ul>
