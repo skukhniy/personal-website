@@ -16,12 +16,9 @@ export default function SkillsCard({ header, imgs, skills }) {
 	}
 
 	return (
-		<div data-aos="fade-up">
+		<div data-aos="fade-up" className="text-center">
 			<h5>{header}</h5>
-			<div
-				className="d-sm-flex flex-wrap p-4 justify-content-around border"
-				style={{ width: "18em" }}
-			>
+			<div className="d-sm-flex flex-wrap p-4 justify-content-around border skillCard">
 				{skillsList}
 			</div>
 			{/* <ul>{skillsList}</ul>
