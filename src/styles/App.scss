@@ -5,6 +5,20 @@ $fontColor: #d3cfca;
 // $emphColor: rgb(131, 226, 131);
 // $bgBorder: rgb(32, 175, 109)
 
+.project-image {
+	max-width: 50%;
+	width: auto;
+	height: auto;
+}
+
+@media (max-width: 985px) {
+	.project-image {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+}
+
 html,
 body {
 	color: $fontColor !important;
@@ -71,10 +85,6 @@ body {
 	border-color: rgb(32, 175, 109) !important;
 }
 
-.project-image {
-	width: 50%;
-	height: auto;
-}
 .project-image-container {
 	width: 100%;
 }
