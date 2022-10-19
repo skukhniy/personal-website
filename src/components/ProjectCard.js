@@ -13,7 +13,10 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 				<h4 className="headercolor">{title}</h4>
 				<p>{desc}</p>
 				<div className="mb-3">
-					<Button className="me-3 buttons" variant="outline-success buttons">
+					<Button
+						className="buttons me-1 ms-1"
+						variant="outline-success buttons"
+					>
 						<a
 							className="text-decoration-none"
 							target="_blank"
@@ -25,7 +28,7 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 							Demo
 						</a>
 					</Button>
-					<Button variant="outline-success buttons">
+					<Button variant="outline-success buttons" className="ms-1 me-1">
 						<a
 							className="text-decoration-none"
 							target="_blank"
