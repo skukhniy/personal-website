@@ -20,10 +20,10 @@ export default function About() {
 					</h3>
 					<p className="pt-3">
 						I'm a self taught web developer based out of Connecticut. My self
-						taught journey began during the pandemic, where I used Python to
-						automate report creation at my data analysis job. I later fell into
+						taught journey began in 2020, when I used Python to
+						automate the creation of reports at my data analysis job. I later fell into
 						the web development rabbit hole when I wanted to build a portfolio
-						website for my photography. As I learned about web developement, the
+						website for my photography. The more I learned about web developement, the
 						more I came to love it!
 					</p>
 					<p>

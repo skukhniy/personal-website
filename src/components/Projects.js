@@ -21,7 +21,7 @@ export default function Projects() {
 						"A full-stack CRUD app using a MERN stack. It implements user authentication for admin privileges, a rich text editor to add design variety to posts, and image uploads. Deployed on AWS using EC2 on a virtual Ubuntu machine."
 					}
 					img={blogPic}
-					demo={"http://18.234.147.248/"}
+					demo={"http://blog.stanislavkukhniy.com/"}
 					code={"https://github.com/skukhniy/blog-api"}
 				/>
 				<ProjectCard
