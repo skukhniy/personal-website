@@ -37,7 +37,7 @@ export default function Projects() {
 				<ProjectCard
 					title={"Letterboxd Watchlist Scrapper"}
 					desc={
-						"This MERN-stack app scrapes the HTML of a users Letterboxd movie watchlist, and news articles, to return a clean list of movies from their watchlist that were added to streaming services that month."
+						"This MERN-stack app uses webscrapping to gather and display which movies from a users Letterboxd watchlist were added to streaming this month."
 					}
 					img={watchboxdPic}
 					demo={"http://watchboxd.stanislavkukhniy.com"}
