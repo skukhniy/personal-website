@@ -45,7 +45,7 @@ export default function ProjectCard({ title, desc, img, demo, code }) {
 			<img
 				src={img}
 				alt="A mock store for vinyl records"
-				className="project-image"
+				className="project-image project-border"
 			></img>
 		</div>
 	);
