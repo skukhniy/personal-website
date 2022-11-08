@@ -5,6 +5,7 @@ import waldoPic from "../assets/waldo-screenshot.png";
 import starwarsPic from "../assets/starwars-screenshot.png";
 import pokedexPic from "../assets/pokedex-screenshot.png";
 import blogPic from "../assets/blog-screenshot.png";
+import watchboxdPic from "../assets/watchboxd.png";
 
 export default function Projects() {
 	return (
@@ -25,15 +26,6 @@ export default function Projects() {
 					code={"https://github.com/skukhniy/blog-api"}
 				/>
 				<ProjectCard
-					title={"Pokedex"}
-					desc={
-						"This project is a Pokédex website which uses a Pokemon API (https://pokeapi.co) to display all the Pokémon from a specific region."
-					}
-					img={pokedexPic}
-					demo={"https://skukhniy.github.io/pokedex/dist/index.html"}
-					code={"https://github.com/skukhniy/pokedex"}
-				/>
-				<ProjectCard
 					title={"Vinyl Store"}
 					desc={
 						"Built an e-commerce website using React for a fake vinyl store. Added Jest testing to ensure that components were working properly after every update."
@@ -43,13 +35,22 @@ export default function Projects() {
 					code={"https://github.com/skukhniy/shopping-page"}
 				/>
 				<ProjectCard
-					title={"Where's Waldo (Nintendo Version)"}
+					title={"Letterboxd Watchlist Scrapper"}
 					desc={
-						"A twist on the classic 'Wheres Waldo' game. In this case, you're searching for Nintendo characters from the GameCube era. This project was used as a way for me to practice using a BaaS like Firebase, and to get more practice implementing unit testing in React."
+						"This MERN-stack app scrapes the HTML of a users Letterboxd movie watchlist, and news articles, to return a clean list of movies from their watchlist that were added to streaming services that month."
 					}
-					img={waldoPic}
-					demo={"https://skukhniy.github.io/nintendo-wheres-waldo/"}
-					code={"https://github.com/skukhniy/nintendo-wheres-waldo"}
+					img={watchboxdPic}
+					demo={"http://watchboxd.stanislavkukhniy.com"}
+					code={"https://github.com/skukhniy/letterboxd-watchlist-scrapper"}
+				/>
+				<ProjectCard
+					title={"Pokedex"}
+					desc={
+						"This project is a Pokédex website which uses a Pokemon API (https://pokeapi.co) to display all the Pokémon from a specific region."
+					}
+					img={pokedexPic}
+					demo={"https://skukhniy.github.io/pokedex/dist/index.html"}
+					code={"https://github.com/skukhniy/pokedex"}
 				/>
 			</div>
 		</div>
