@@ -17,6 +17,15 @@ export default function Projects() {
 
       <div className="">
         <ProjectCard
+          title={'Letterboxd Watchlist Scrapper'}
+          desc={
+            'This MERN-stack app uses webscrapping to gather and display which movies from a users Letterboxd watchlist were added to streaming this month. Use my Letterboxd username (stanisloth) to test out the app.'
+          }
+          img={watchboxdPic}
+          demo={'http://watchboxd.stanislavkukhniy.com'}
+          code={'https://github.com/skukhniy/letterboxd-watchlist-scrapper'}
+        />
+        <ProjectCard
           title={'RESTful API Blog'}
           desc={
             'A full-stack CRUD app using a MERN stack. It implements user authentication for admin privileges, a rich text editor to add design variety to posts, and image uploads. Deployed on AWS using EC2 on a virtual Ubuntu machine.'
@@ -35,19 +44,11 @@ export default function Projects() {
           code={'https://github.com/skukhniy/shopping-page'}
         />
         <ProjectCard
-          title={'Letterboxd Watchlist Scrapper'}
-          desc={
-            'This MERN-stack app uses webscrapping to gather and display which movies from a users Letterboxd watchlist were added to streaming this month. Use my Letterboxd username (stanisloth) to test out the app.'
-          }
-          img={watchboxdPic}
-          demo={'http://watchboxd.stanislavkukhniy.com'}
-          code={'https://github.com/skukhniy/letterboxd-watchlist-scrapper'}
-        />
-        <ProjectCard
           title={'Pokedex'}
           desc={
             'This project is a Pokédex website which uses a Pokemon API (https://pokeapi.co) to display all the Pokémon from a specific region.'
           }
+          cd
           img={pokedexPic}
           demo={'https://skukhniy.github.io/pokedex/dist/index.html'}
           code={'https://github.com/skukhniy/pokedex'}
